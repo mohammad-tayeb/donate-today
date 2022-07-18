@@ -18,12 +18,42 @@ body {
 
 .section1bg {
     background-image: url(images/donation9.jpg);
+    opacity: 0.9;
     background-size: cover;
-    height: 400px;
+    height: 450px;
     width: 100%;
     background-repeat: no-repeat;
 }
 
 #margintop {
     padding-top: 2%;
+}
+
+.link-button {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(tomato, red);
+    border-radius: 10px;
+    padding: 10px 30px;
+    margin-left: 45%;
+}
+
+.grey {
+    color: grey;
+}
+
+.section2 {
+    margin-top: 80px;
+}
+
+.amounts {
+    display: flex;
+    margin-left: 15%;
+
+}
+
+.amount {
+    margin: 40px;
+    padding: 8px 25px;
+    background-color: rgba(248, 248, 248, 0.651);
 }
