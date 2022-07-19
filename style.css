@@ -60,7 +60,7 @@ body {
 .amount {
     margin: 20px;
     padding: 5px 25px;
-    background-color: rgba(248, 248, 248, 0.651);
+    background-color: rgba(248, 248, 248, 0.718);
 }
 
 .redcolor {
@@ -83,8 +83,10 @@ body {
 .food {
     width: 33%;
     background-color: rgba(219, 244, 235, 0.574);
-    padding: 17px;
+    border-radius: 5px;
+    padding: 20px;
     margin-left: 30px;
+    text-align: justify;
 }
 
 .section5 {
@@ -97,15 +99,19 @@ body {
 .shelter {
     width: 33%;
     background-color: rgba(255, 192, 203, 0.259);
-    padding: 17px 10px;
+    border-radius: 5px;
+    padding: 20px;
     margin-left: 30px;
+    text-align: justify;
 }
 
 .education {
     width: 33%;
     background-color: rgba(255, 255, 0, 0.222);
-    padding: 17px;
+    border-radius: 5px;
+    padding: 20px;
     margin-left: 30px;
+    text-align: justify;
 }
 
 .saying1 {
@@ -124,4 +130,44 @@ body {
     display: flex;
     margin-left: 10%;
     margin-top: 10%;
+}
+
+.section7 {
+    display: flex;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.form {
+    background-color: blanchedalmond;
+    height: 150px;
+    width: 700px;
+    margin-left: 24%;
+    margin-top: 5%;
+    text-align: center;
+    display: flex;
+}
+
+.formelement {
+    padding-left: 25%;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    display: flex;
+}
+
+.email {
+    background-color: gainsboro;
+    width: 300px;
+    height: 50px;
+    border-radius: 5%;
+    text-align: left;
+}
+
+.subscribe {
+    background-color: rgb(255, 38, 0);
+    border-radius: 5%;
+    width: 120px;
+    height: 50px;
+    color: aliceblue;
 }
