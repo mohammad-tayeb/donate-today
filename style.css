@@ -39,7 +39,7 @@ body {
     background-image: linear-gradient(tomato, red);
     border-radius: 10px;
     padding: 10px 30px;
-    margin-left: 45%;
+    margin-left: 43.5%;
 }
 
 .grey {
@@ -143,16 +143,16 @@ body {
     background-color: blanchedalmond;
     height: 150px;
     width: 700px;
-    margin-left: 24%;
+    margin-left: 23%;
     margin-top: 5%;
     text-align: center;
     display: flex;
 }
 
 .formelement {
-    padding-left: 25%;
-    padding-top: 10%;
-    padding-bottom: 5%;
+    padding-left: 130px;
+    padding-top: 50px;
+    padding-bottom: 15px;
     display: flex;
 }
 
@@ -170,4 +170,16 @@ body {
     width: 120px;
     height: 50px;
     color: aliceblue;
+}
+
+.footer {
+    background-color: rgb(7, 7, 36);
+    width: 100%;
+    height: 120px;
+    padding-top: 1%;
+    margin-top: 5%;
+}
+
+.iltalicfont {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
